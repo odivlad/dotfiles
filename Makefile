@@ -8,11 +8,15 @@ clean-conf:
 	@rm -f ~/.gitconfig
 	@echo "Removing .vimrc"
 	@rm -f ~/.vimrc
+	@echo "Removing .screenrc"
+	@rm -f ~/.screenrc
 
 copy-conf:
 	@echo "Copying .gitconfig"
 	@cp .gitconfig ~/.
 	@echo "Copying .vimrc"
 	@cp .vimrc ~/.
+	@echo "Copying .screenrc"
+	@cp .screenrc ~/.
 
 install: clean copy-conf

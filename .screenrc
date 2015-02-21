@@ -1,0 +1,5 @@
+hardstatus alwayslastline '%{kg}[ %H ] [%= %-w %{r}(%{k}%n %t%{r})%{k} %+w %= ] [%d.%m %c]'
+altscreen on
+startup_message off
+term screen-256color
+defscrollback = 5000
