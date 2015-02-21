@@ -36,3 +36,10 @@ set shiftwidth=4
 " Auto indent
 set ai
 set si
+
+
+" ===> Helpers
+
+" Show trailing whitespace:
+highlight ExtraWhitespace ctermbg=red guibg=darkred
+match ExtraWhitespace /\s\+$/
