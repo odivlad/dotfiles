@@ -37,6 +37,9 @@ set shiftwidth=4
 set ai
 set si
 
+" Enable text paste with formatting save
+set paste
+
 
 " ===> Helpers
 
