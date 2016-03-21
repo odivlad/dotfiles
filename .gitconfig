@@ -9,7 +9,7 @@
     interactive = auto
 [alias]
     br = branch
-    ci = commit -a
+    ci = commit -a -s
     co = checkout
     gr = grep -n --color --extended-regexp
     me = merge --no-commit
