@@ -22,9 +22,11 @@
     upd = remote update --prune
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [merge]
-    tool = meld
+    tool = vimdiff
 [mergetool "meld"]
     cmd = "meld $LOCAL $MERGED $REMOTE"
+[mergetool "vimdiff"]
+    cmd = "vimdiff $LOCAL $MERGED $REMOTE"
 [push]
     default = matching
 [color]

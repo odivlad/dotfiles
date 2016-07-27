@@ -28,6 +28,7 @@ set encoding=utf8
 
 " Enable Smarttabs
 set smarttab
+set copyindent
 
 " 1 tab == 4 spaces
 set tabstop=4
