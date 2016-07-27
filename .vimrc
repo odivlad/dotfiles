@@ -5,7 +5,6 @@ filetype indent on
 
 set autoread
 
-
 " ===> User Interface
 
 " Ignore compiled files
@@ -29,6 +28,9 @@ set encoding=utf8
 " Enable Smarttabs
 set smarttab
 set copyindent
+set noexpandtab
+set preserveindent
+set softtabstop=0
 
 " 1 tab == 4 spaces
 set tabstop=4
@@ -40,7 +42,6 @@ set si
 
 " Enable text paste with formatting save
 set paste
-
 
 " ===> Helpers
 
