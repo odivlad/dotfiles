@@ -1,6 +1,7 @@
 [user]
     name = Vladislav Odintsov
     email = odivlad@gmail.com
+    signingkey = "724CB56143E9AF75747C528D4B5DF011A1AC801D"
 [core]
     editor = "vim"
     diff = auto
@@ -9,7 +10,7 @@
     interactive = auto
 [alias]
     br = branch
-    ci = commit -a -s
+    ci = commit -asS
     co = checkout
     gr = grep -n --color --extended-regexp
     me = merge --no-commit
