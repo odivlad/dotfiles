@@ -7,10 +7,12 @@ clean-conf:
 	rm -f ~/.gitconfig
 	rm -f ~/.vimrc
 	rm -f ~/.screenrc
+	rm -f ~/.inputrc
 
 copy-conf:
 	cp .gitconfig ~/.
 	cp .vimrc ~/.
 	cp .screenrc ~/.
+	cp .inputrc ~/.
 
 install: clean copy-conf
