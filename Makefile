@@ -8,11 +8,13 @@ clean-conf:
 	rm -f ~/.vimrc
 	rm -f ~/.screenrc
 	rm -f ~/.inputrc
+	rm -f ~/iterm.profile
 
 copy-conf:
 	cp .gitconfig ~/.
 	cp .vimrc ~/.
 	cp .screenrc ~/.
 	cp .inputrc ~/.
+	cp iterm.profile ~/
 
 install: clean copy-conf
