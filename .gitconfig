@@ -10,14 +10,14 @@
     interactive = auto
 [alias]
     br = branch
-    ci = commit -asS
+    ci = commit -as
     co = checkout
     gr = grep -n --color --extended-regexp
     me = merge --no-commit
     mt = mergetool --no-prompt
     pa = push --all
     pt = push --tags
-    rb = rebase --committer-date-is-author-date
+    rb = rebase upstream/master -i --autosquash
     st = status
     up = remote update
     upd = remote update --prune
